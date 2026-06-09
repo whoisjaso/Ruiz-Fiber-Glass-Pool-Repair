@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 360" role="img" aria-labelledby="title desc">
+  <title id="title">Ruiz Fiberglass Pool Repair</title>
+  <desc id="desc">Logo-style mark with arched Ruiz Fiberglass text, pool outline, red Texas shape, and Pool Repair text.</desc>
+  <rect width="780" height="360" fill="#fff"/>
+  <path d="M103 168 C172 28 596 23 674 168" fill="none" stroke="#111" stroke-width="0"/>
+  <text x="390" y="89" text-anchor="middle" fill="#111" font-family="Impact, Oswald, Arial Narrow, sans-serif" font-size="67" font-weight="900">RUIZ FIBERGLASS</text>
+  <path d="M179 193 C215 113 332 96 458 107 C579 118 637 151 620 211 C605 265 491 294 345 281 C227 270 151 238 179 193 Z" fill="none" stroke="#111" stroke-width="31"/>
+  <path d="M195 246 L118 293 L143 315 L228 261 Z" fill="#111"/>
+  <path d="M482 112 C540 123 589 146 604 179" fill="none" stroke="#111" stroke-width="12" stroke-dasharray="21 12"/>
+  <path d="M354 136 C376 166 431 166 454 137" fill="none" stroke="#111" stroke-width="13"/>
+  <path d="M326 136 C355 195 470 194 502 136" fill="none" stroke="#111" stroke-width="13"/>
+  <path d="M366 145 L407 154 L414 181 L459 187 L444 215 L462 246 L420 245 L407 310 L374 266 L344 274 L330 239 L296 221 L331 199 Z" fill="#C8102E"/>
+  <path d="M476 255 C520 243 551 225 572 199" fill="none" stroke="#47BFEA" stroke-width="9"/>
+  <path d="M40 286 H154 M626 286 H740" stroke="#C8102E" stroke-width="8"/>
+  <text x="390" y="315" text-anchor="middle" fill="#C8102E" font-family="Impact, Oswald, Arial Narrow, sans-serif" font-size="78" font-weight="900">POOL REPAIR</text>
+  <path d="M120 340 C260 323 516 321 662 340" fill="none" stroke="#111" stroke-width="7"/>
+</svg>
