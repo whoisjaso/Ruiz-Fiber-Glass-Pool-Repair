@@ -4,18 +4,9 @@ const header = document.querySelector("[data-header]");
 const menuToggle = document.querySelector("[data-menu-toggle]");
 const siteNav = document.querySelector("[data-site-nav]");
 const estimateForm = document.querySelector("[data-estimate-form]");
-const beforeAfter = document.querySelector("[data-before-after]");
-const beforeAfterToggle = document.querySelector("[data-before-after-toggle]");
-const year = document.querySelector("[data-year]");
-
-if (year) {
-  year.textContent = new Date().getFullYear();
-}
 
 if (header) {
-  const updateHeader = () => {
-    header.classList.toggle("is-scrolled", window.scrollY > 8);
-  };
+  const updateHeader = () => header.classList.toggle("is-scrolled", window.scrollY > 8);
   updateHeader();
   window.addEventListener("scroll", updateHeader, { passive: true });
 }
@@ -46,13 +37,6 @@ if (estimateForm) {
   });
 }
 
-if (beforeAfter && beforeAfterToggle) {
-  beforeAfterToggle.addEventListener("click", () => {
-    const isAfter = beforeAfter.classList.toggle("is-after");
-    beforeAfterToggle.textContent = isAfter ? "Show before" : "Show after";
-  });
-}
-
 const revealItems = document.querySelectorAll(".reveal");
 if ("IntersectionObserver" in window) {
   const observer = new IntersectionObserver(
@@ -64,7 +48,7 @@ if ("IntersectionObserver" in window) {
         }
       });
     },
-    { threshold: 0.12 }
+    { threshold: 0.1 }
   );
 
   revealItems.forEach((item) => observer.observe(item));
